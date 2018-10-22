@@ -76,7 +76,7 @@ with open ('filename.csv','w') as file:
                     csr['Project Amount Outlay'] =tmpInvest[5]
                     csr['Amount Spent'] =tmpInvest[6]
                     csr['Mode of Implementation'] =tmpInvest[7]
-                    csr['Year']=1]=2015-16
+                    csr['Year']=2015-16
                     print(csr)
                     writer.writerow(csr)
             except AttributeError as Attrib:
